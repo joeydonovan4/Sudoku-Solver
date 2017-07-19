@@ -1,0 +1,4 @@
+Sudoku Solver Using Backtracking
+
+To run use the following command after setting up your GOPATH
+go run $GOPATH/src/github.com/joeydonovan4/sudoku/main.go $GOPATH/src/github.com/joeydonovan4/sudoku/exampleBoard.txt
