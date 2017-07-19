@@ -18,5 +18,12 @@ func main() {
 			fmt.Printf("Error:\n%s", err)
 		}
 		fmt.Printf("\nOriginal board:\n%v", board)
+
+		if board.Backtrack() {
+			fmt.Printf("Solved board:\n%v", board)
+		} else {
+			// Do something to show that there is no solution for this board
+			fmt.Println("No solution for the given board.")
+		}
 	}
 }
